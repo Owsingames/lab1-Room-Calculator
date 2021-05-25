@@ -14,13 +14,13 @@ namespace Lab1
             {
                 //user input for length
                 Console.Write("Please enter the length of the room: ");
-                double length = int.Parse(Console.ReadLine());
+                double length = double.Parse(Console.ReadLine());
                 //user input for width
                 Console.Write("Please enter the width of the room: ");
-                double width = int.Parse(Console.ReadLine());
+                double width = double.Parse(Console.ReadLine());
                 //user input for hight
                 Console.Write("Please enter the hight of the room: ");
-                double hight = int.Parse(Console.ReadLine());
+                double hight = double.Parse(Console.ReadLine());
                 Console.WriteLine("\n");
 
                 //calculate perimeter
